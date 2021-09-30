@@ -1,0 +1,22 @@
+Import random library
+
+Create function that takes in an array of fruits called get_avalible_fruits:
+    Create an empty array to store the avalible fruits
+    Create a for loop that iterates through all of the fruits:
+        If the fruit does not start with a vowel:
+            Append the avalible fruits array with the fruit
+    Return the avalible fruits array
+
+Create function that takes in a parameter for the fruits array and the number of fruits requested:
+    Set the value of the fruits array to the value returned by the get avalible fruits functtion
+    Create an empty array to hold 
+    Check if there are more fruits in the array than the requested amount
+    If so:
+        Create a while loop that runs while the length of the picked_fruits array is less than the number of fruits requested:
+            Chose a random fruit from the fruit array
+            Remove the chosen fruit from the array
+            Append the picked_fruits array with the new chosen fruit
+        Return the picked fruits array
+    else:
+        Return the fruits array
+
